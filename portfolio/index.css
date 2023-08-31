@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pink.jpg);
+    background-size: cover;
+position: relative;
+}
+.web{`  
+height: 30px;
+padding: 0px;
+margin: 0px;
+
+}
+
+.web .logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(20, 20, 20);
+    transition: .5s;
+    margin: 20px;
+    top: -20px;
+}
+.logo:hover{
+    width: 80px;
+    height: 80px;
+    }
+.nav{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }  
+.nav ul li {
+display: flex;
+align-items: center;
+display: inline;
+margin-left: 50px;
+
+}
+.nav ul li a{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(247, 238, 242);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 20px;
+    
+}
+a:hover{
+    border-bottom: 2.5px solid rgb(197, 73, 112);
+
+    }
+    
+
+    .para{
+        position: relative;
+        font-size: 25px;
+        font-weight: 800;
+        color: rgb(150, 6, 70);
+        text-transform: capitalize;
+        line-height: -2px;
+        margin: 200px 200px;
+        letter-spacing: 1px;
+        
+    }
+    span{
+        color: rgb(32, 31, 32);
+    }
+    h4{ color: aliceblue;
+        margin-left: 70px;
+    }
+ .para .pro{
+    border-radius: 50%;
+    height: 50vh;
+    width: 50vh;
+position: absolute;
+top: -100px;
+right: 10px;
+}
+.para1{
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(236, 219, 231);
+    margin-top: 10px;
+    line-height: -6px;
+    }
+    /* about me */
+    .intro{
+margin: 50px;
+color: rgb(19, 18, 18);   
+font-size: 30px;
+font-weight:bold;    
+text-align: center;
+
+}
+.intro:hover{
+    border-bottom: 2px solid pink;  
+    margin: 0px 90vh;
+
+}
+    .feature{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .feature p{
+    line-height: -2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 100px;
+    color: rgb(46, 43, 43);
+    letter-spacing: 1px;
+    margin-right: 5px;
+    
+    }
+    .feature img{
+        margin-top: 10px;
+        height: 300px;
+        width: 200vh;
+        border-radius: 50%;
+        margin-left: 20px;
+        padding: 10px;
+        }
+        /* education */
+       #education{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+}
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 50px;
+    text-align: center
+    
+} 
+.header:hover{
+    border-bottom: 2px solid pink;  
+margin: 0 90vh;
+}
+
+ #education h1{
+        margin: 60px;
+           }
+           .columns{
+            display: grid;
+grid-template-columns: auto auto;
+justify-content: space-evenly;
+        }
+        .box{
+            height: 200px;
+width: 500px;
+background-color: rgb(209, 37, 137);
+border-radius: 20px;
+margin: 5px;
+padding: 20px;
+color: white;
+
+
+        }
+        .box h2{
+            color: black;
+            font-size: 25px;
+            margin-bottom: 40px;
+
+        }
+        .box p{
+            -ms-text-combine-horizontal: white;
+            font-size: 1.1rem;
+        }
+        #skills .heading{
+            font-size: 25px;
+            font-weight: bold;
+            text-transform: capitalize;
+            margin-top: 50px;
+            text-align: center;
+        }
+     .heading:hover{
+            border-bottom: 2px solid pink;  
+        margin: 0 90vh;
+        }
+       
+.pic{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+#contact{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top:50px;
+    text-align: center;
+    
+   }
+   #contact #name{
+    background-color: rgb(247, 228, 234);
+    border-radius: 3px;
+    border: 2px solid rgb(150, 6, 70) ;
+    padding: 2px;
+    font-size: 20px;
+margin-top: 30px;
+   }
+   #contact #email{
+    background-color: rgb(240, 221, 227);
+    border-radius: 3px;
+    border: 2px solid rgb(150 ,6, 78) ;
+    padding: 2px;
+font-size: 20px;
+margin-top: 30px;
+   }
+      #contact #num{
+    background-color: rgb(243, 227, 232);
+    border-radius: 3px;
+    border: 2px solid rgb(150 ,6, 78) ;
+    padding: 2px;
+    font-size: 20px;
+    margin-top: 30px;
+   }
+   #contact #area{
+    background-color: rgb(236, 226, 229);
+    border-radius: 3px;
+    border: 2px solid rgb(150 ,6, 78) ;
+    padding: 2px;
+    margin-top: 30px;
+    font-size: 20px;
+   }
+   #contact #envelope{
+    color: rgb(150 ,6, 78);
+   }
+   #contact #user{
+    color: rgb(150, 6, 78);
+    size: 2px;
+   }
+   #contact #phone{
+    color: rgb(150 ,6, 78);
+   }
+   #contact #msg{
+    color:rgb(150 ,6, 78);
+   }
+   #btn{
+    background-color: rgb(240, 232, 236);
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(41, 39, 39);
+    margin-top: 30px;
+    border: 2px solid rgb(150 ,6, 78);
+    border-radius: 20px;
+   }
+
+
+

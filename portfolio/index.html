@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web profitilio design</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+</head>
+<body>
+    <div id="full">
+    <div class="web">
+        <img src="pink1.png" class="logo">
+        <div class="nav">
+            <ul>
+                <div id="active">
+                <li><a href="#" class="active" onclick="closeNav()">home</a></li>
+                <li><a href="#about" class="active" onclick="closeNav()">about</a></li>
+                <li><a href="#skills"class="active" onclick="closeNav()">skills</a></li>
+                <li><a href="#education" class="active" onclick="closeNav()">education</a></li>
+                <li><a href="#contact" class="active" onclick="closeNav()">contact</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div id="home">
+        <div class="para">
+        <h3>hi,i'm <span>priya</span></h3>
+            <h4>front end developer</h4>
+            <img src="profile.jpg" class="pro">
+            <div class="para1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi dolores<br>quae natus alias,
+                       nihil facere iste maxime deleniti placeat corporis<br>
+                    aperiam nostrum exercitationem. Non eum necessitatibus iure iusto.</p>
+            </div>
+        </div>
+    </div>
+        <section id="about">
+            <h2 class="intro">About Me</h2>
+            <div class="feature">
+                            <img src="profile.jpg">
+                            <p>An india-based freelancer who's into web development and open to work as a front-end developer. i possess skilled talent and immense experience in creating and maintaining visuallu appealing and user friendly websites.
+                                i have comprehensive knowledge of various web development technologies such as html,css,javascript .this skills set enables me to build responsive 
+                               and interactive website with excellent functionality features.</p>
+                            </div>
+        </section>
+        <section id="education" onclick="education">
+           <h1 class="header">Education</h1>
+           <div class="columns">
+            <div class="box">
+                <h2>bachelors in information technology</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sunt ipsa, sed ipsum vitae dolore ullam ad? Mollitia, exercitationem deserunt laborum debitis assumenda consequuntur, distinctio sapiente perspiciatis officiis quaerat fuga.</p>
+
+    </div>
+    <div class="box">
+        <h2>master in information technology</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores nam itaque fugiat vitae minima consectetur nemo deserunt nisi aspernatur quia necessitatibus sequi porro autem sunt, tenetur delectus voluptas aut esse?</p>
+    </div>
+           </div>
+        </section>
+      <section id="skills">
+        <h1 class="heading">skills</h1>
+        <div class="pic">
+        <img src="html.jpg">
+        <img src="css1.jpg" height="227px" width="227px">
+        <img src="js.jpg">
+        </div>
+      </section>  
+      <section id="contact">
+        <h1 class="con">contact</h1>
+        <div class="tag">
+            <i class="fa-solid fa-user" id="user"></i>
+            <input type="text" placeholder="enter your name" id="name"><br>
+            <i class="fa-solid fa-envelope" id="envelope"></i>
+            <input type="text" placeholder="enter your email" id="email"><br>
+            <i class="fa-solid fa-phone" id="phone"></i>
+            <input type="password" placeholder="enter your number" id="num"><br>
+               <button type="submit" id="btn">Register</button>
+    </div>
+      </section>  
+    </div>
+    <script src="index.js"></script>
+        </div>
+    </div>
+    </body>
+
+</html>
